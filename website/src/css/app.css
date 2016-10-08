@@ -1,17 +1,102 @@
-/* Your CSS goes here */
-#main {
-  text-align: center;
+body {
+  background-color: #f4f4f4;
+  font-family: 'PT Sans Narrow', sans-serif;
+
 }
 
-#close {
-  position: absolute;
-  top: 90px;
-  right: 0;
-  width: 64px;
-  height: 64px;
-  overflow: hidden;
-  z-index: 1000;
+p {
+  font-weight: 100;
+  font-size: 30px;
+  color: #404040;
+
 }
-#close img {
-  width: 100%;
+
+#wrapper {
+  height: 100%;
+  text-align: center;
+
+
+}
+
+#main {
+
+  height: 350px;
+  padding: 10px;
+  background-color: #f4f4f4;
+
+}
+
+
+div.buttons {
+  height: 90px;
+  width: 90px;
+  display: inline-block;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid gray;
+  border-radius: 50%;
+
+
+}
+
+
+div.buttons img {
+  height: 45px;
+  width: 45px;
+  margin-top: 10px;
+
+
+
+}
+
+div.buttons p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+
+}
+
+
+div.buttons:hover {
+  border: 5px solid gray;
+
+}
+
+div.buttons:hover p {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+
+
+div.icons {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px solid gray;
+  border-radius: 50%;
+
+
+}
+
+
+div.icons img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+
+
+
+}
+
+div.icons p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 9px;
+
 }
