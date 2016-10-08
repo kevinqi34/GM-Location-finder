@@ -7,7 +7,6 @@ body {
 p {
   font-weight: 100;
   font-size: 30px;
-  color: #404040;
 
 }
 
@@ -20,7 +19,7 @@ p {
 
 #main {
 
-  height: 350px;
+  height: auto;
   padding: 10px;
   background-color: #f4f4f4;
 
@@ -40,7 +39,11 @@ div.buttons {
 
 }
 
+div.buttons:hover {
+  border-color: black;
+  color: black;
 
+}
 div.buttons img {
   height: 45px;
   width: 45px;
@@ -58,16 +61,7 @@ div.buttons p {
 }
 
 
-div.buttons:hover {
-  border: 5px solid gray;
 
-}
-
-div.buttons:hover p {
-  font-weight: bold;
-  font-size: 18px;
-
-}
 
 
 
@@ -75,28 +69,84 @@ div.icons {
   height: 100px;
   width: 100px;
   display: inline-block;
-  margin: auto;
-  margin-left: 5px;
-  margin-right: 5px;
+  vertical-align: top;
+  margin: 5px;
   border: 2px solid gray;
   border-radius: 50%;
 
 
 }
 
+div.icons:hover {
+  border-color: skyblue;
+  color: skyblue;
+
+}
+
+div.icons div.img {
+  position: relative;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+
+}
 
 div.icons img {
-  height: 40px;
-  width: 40px;
+
+  height: 50px;
+  width: 50px;
   margin-top: 10px;
+
+}
+
+
+div.icons div.img img.img-inner {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  width: auto;
+  margin: auto;
+  max-height: 95%;
+  max-width: 95%;
+  vertical-align: middle;
+
+
+}
+
+
+div.icons p {
+  margin: 0px;
+  width: 80%;
+  font-size: 10px;
+  line-height: 10px;
+  margin: auto;
+  position: relative;
+
+}
+
+#remove img {
+  width: 50px;
+  height: 50px;
+
 
 
 
 }
 
-div.icons p {
-  margin: 0px;
-  padding: 0px;
-  font-size: 9px;
+#remove p {
+  font-size: 15px;
+  font-weight: bold;
+
+
+}
+
+
+#sub_menu p span {
+  color: steelblue;
+
 
 }

@@ -16,8 +16,9 @@ function build_Menu_item(item) {
 
 
 function create_Menu() {
+    $('#sub_menu').show();
     $('#remove, div.icons').remove();
-    var data = ['Food', 'Lodging'];
+    var data = ['Food', 'Lodging', 'Gas', 'Money'];
     for (datas in data) {
       var element = data[datas];
       build_Menu_item(element);
@@ -36,7 +37,7 @@ function create_Menu() {
 $( document ).ready(function() {
   // Create initial Menu
   create_Menu();
-
+  set_Distance();
   setGPS();
 
 
