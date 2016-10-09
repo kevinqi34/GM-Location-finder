@@ -25,4 +25,4 @@ within a set distance.
 
 # Screen Shots
 
-![App1](./appp1.png)
+![App1](./app1.png)
