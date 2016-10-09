@@ -23,3 +23,6 @@ note: You need to be running Node 4.7
 The webapp, takes gps coordinates from GM's ngi vehicle api and then uses these coordinates with the google places api to find places
 within a set distance. 
 
+# Screen Shots
+
+![App1](./appp1.png)
